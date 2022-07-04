@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=3 python train_TDM_contrastive_cross_pseudo_supervision_2D.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_v2_contrastive_mlp_cross_pseudo_10 --num_classes 2 --labeled_num 50 &&
+CUDA_VISIBLE_DEVICES=3 python train_TDM_contrastive_cross_pseudo_supervision_2D.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_v2_contrastive_mlp_cross_pseudo_20 --num_classes 2 --labeled_num 100 &&
+CUDA_VISIBLE_DEVICES=3 python train_TDM_contrastive_cross_pseudo_supervision_2D.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_v2_contrastive_mlp_cross_pseudo_30 --num_classes 2 --labeled_num 150 &&
+CUDA_VISIBLE_DEVICES=3 python train_TDM_contrastive_cross_pseudo_supervision_2D.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_v2_contrastive_mlp_cross_pseudo_40 --num_classes 2 --labeled_num 200 &&
+CUDA_VISIBLE_DEVICES=3 python train_TDM_contrastive_cross_pseudo_supervision_2D.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_v2_contrastive_mlp_cross_pseudo_50 --num_classes 2 --labeled_num 250 

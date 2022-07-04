@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_contrastive_cross_pseudo_10 --model TDM_contrastive_UNet --num_classes 2 --labeled_num 50 && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_contrastive_cross_pseudo_20 --model TDM_contrastive_UNet --num_classes 2 --labeled_num 100 && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_contrastive_cross_pseudo_30 --model TDM_contrastive_UNet --num_classes 2 --labeled_num 150 && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_contrastive_cross_pseudo_40 --model TDM_contrastive_UNet --num_classes 2 --labeled_num 200 && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp TDM_contrastive_cross_pseudo_50 --model TDM_contrastive_UNet --num_classes 2 --labeled_num 250

@@ -1,0 +1,9 @@
+MODE=$1
+CASE=$2
+
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully_ablation.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp transform_Label_contrastive_cps_albation_case${CASE} --num_classes 2 --labeled_num 25 --ablation_case $CASE --mode $MODE --model Label_contrastive_UNet && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully_ablation.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp transform_Label_contrastive_cps_albation_case${CASE} --num_classes 2 --labeled_num 50 --ablation_case $CASE --mode $MODE --model Label_contrastive_UNet && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully_ablation.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp transform_Label_contrastive_cps_albation_case${CASE} --num_classes 2 --labeled_num 100 --ablation_case $CASE --mode $MODE --model Label_contrastive_UNet && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully_ablation.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp transform_Label_contrastive_cps_albation_case${CASE} --num_classes 2 --labeled_num 150 --ablation_case $CASE --mode $MODE --model Label_contrastive_UNet && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully_ablation.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp transform_Label_contrastive_cps_albation_case${CASE} --num_classes 2 --labeled_num 200 --ablation_case $CASE --mode $MODE --model Label_contrastive_UNet && \
+CUDA_VISIBLE_DEVICES=0 python test_tdm_2D_fully_ablation.py --root_path /notebook/SSL4MIS/data/UFMR_DCMR --exp transform_Label_contrastive_cps_albation_case${CASE} --num_classes 2 --labeled_num 250 --ablation_case $CASE --mode $MODE --model Label_contrastive_UNet 
